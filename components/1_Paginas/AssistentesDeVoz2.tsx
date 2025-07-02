@@ -42,7 +42,7 @@ const AssistentesVoz2 = () => {
 
 
   return (
-    <div id="HomeAssistant2" className="min-h-screen flex items-center justify-center py-12" onClick={() => Desvantagens('QuadrosEletricos')}>
+    <div id="AssistentesDeVoz2" className="min-h-screen flex items-center justify-center py-12" onClick={() => Desvantagens('QuadrosEletricos')}>
       <div className="w-full">
         <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-center">
           Assistentes de Voz

@@ -25,13 +25,13 @@ import AssistentesVoz2 from "@/components/1_Paginas/AssistentesDeVoz2";
 
 const Hero06 = () => {
 
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      // Usa scrollIntoView com comportamento 'smooth' para uma animação suave
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  };
+  const Desvantagens = (id: string) => { // <--- Adicione ": string" aqui
+  const element = document.getElementById(id);
+  if (element) {
+    // Usa scrollIntoView com comportamento 'smooth' para uma animação suave
+    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
 
   return (
     <>
@@ -50,7 +50,7 @@ O termo "domótica" deriva do latim "domus" (casa) e "robótica" (automação). 
         <div className="mt-12 flex items-center justify-center gap-4">
           <Button size="lg" 
             className="rounded-full text-base" 
-            onClick={() => scrollToSection('nova-seccao')}>
+            onClick={() => Desvantagens('nova-seccao')}>
             Saiba Mais! <ArrowDown className="!h-5 !w-5" />
           </Button>
         </div>

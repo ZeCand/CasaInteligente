@@ -58,7 +58,7 @@ const DesvantagensSection = () => {
 }
 
   return (
-    <div id="Desvantagens" className="min-h-screen flex items-center justify-center py-12" onClick={() => Desvantagens('HomeAssistant2')}>
+    <div id="Desvantagens" className="min-h-screen flex items-center justify-center py-12" onClick={() => Desvantagens('HomeAssistantPro')}>
       
       <div>
         

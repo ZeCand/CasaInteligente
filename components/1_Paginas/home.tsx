@@ -19,7 +19,7 @@ const Desvantagens = (id: string) => { // <--- Adicione ": string" aqui
 
 
 
-        <div id='HomeAssistant' className="min-h-screen flex items-center justify-center" onClick={() => Desvantagens('AssistentesVoz')}>
+        <div id='HomeAssistantPro' className="min-h-screen flex items-center justify-center" onClick={() => Desvantagens('AssistentesDeVoz2')}>
       <div className="w-full">
     <div className="flex justify-center items-center h-screen">
       <iframe
