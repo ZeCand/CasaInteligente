@@ -64,18 +64,18 @@ const Vantagens = () => {
 
   return (
     <div id="nova-seccao" className="min-h-screen flex items-center justify-center py-12"
-    onClick={() => Desvantagens('Desvantagens')}>
+    onClick={() => Desvantagens('Desvantagens')} >
       
       <div>
         
         <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-center">
-          
+          Vantagens De Uma Casa Inteligente
         </h2>
         <div className="mt-10 sm:mt-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-screen-lg mx-auto px-6">
           {features.map((feature) => (
             <div
               key={feature.title}
-              className="flex flex-col border rounded-xl py-6 px-5"
+              className="flex flex-col border rounded-xl py-6 px-5 bg-neutral-100/20"
             >
               <div className="mb-3 h-10 w-10 flex items-center justify-center bg-muted rounded-full">
                 <feature.icon className="h-6 w-6" />

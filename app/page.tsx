@@ -1,6 +1,6 @@
 "use client"
 import { Button } from "@/components/ui/button";
-import { ArrowDown, ArrowUpDown, ArrowUpRight, CirclePlay } from "lucide-react";
+import { ArrowDown, ArrowUpDown, ArrowUpRight, CirclePlay, Dot } from "lucide-react";
 import { BackgroundPattern } from "@/app/hero/background";
 import Vantagens from "@/components/1_Paginas/Vantagens";
 import DesvantagensSection from "@/components/1_Paginas/Desvantagens";
@@ -39,18 +39,34 @@ const Hero06 = () => {
       <BackgroundPattern />
       
 
-      <div className="relative z-10 text-center max-w-2xl">
+      <div className="relative z-10 text-center max-w-2xl justify-center flex flex-col items-center">
         
         <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-bold !leading-[1.2] tracking-tight">
           A Casa Inteligente
         </h1>
-        <p className="mt-6 text-[17px] md:text-lg">
-O termo "domótica" deriva do latim "domus" (casa) e "robótica" (automação). A domótica não se limita a ligar e desligar luzes, mas sim a integrar e controlar centralizadamente uma série de sistemas e dispositivos.         </p>
-        <div className="mt-12 flex items-center justify-center gap-4">
+        <div className="flex justify-between flex-col w-[300px] px-4 items-center py-2">
+          <strong>Trabalho Realizado por</strong>
+          <div className="flex flex-col justify-between">
+          <div className="flex flex-row justify-between">
+            <p>Gonçalo Chora</p> 
+            <Dot /> 
+            <p>Luiz Pereira</p>
+          </div>
+            <div className="flex flex-row justify-between">
+            <p>José Cândido</p> 
+            <Dot /> 
+            <p>Rafael Lopes</p>
+          </div>
+        </div>
+            
+          
+
+        </div>
+        <div className="mt-4 flex items-center justify-center gap-4">
           <Button size="lg" 
             className="rounded-full text-base" 
             onClick={() => Desvantagens('nova-seccao')}>
-            Saiba Mais! <ArrowDown className="!h-5 !w-5" />
+            Ver mais <ArrowDown className="!h-5 !w-5" />
           </Button>
         </div>
       </div>
