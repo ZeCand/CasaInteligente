@@ -6,21 +6,21 @@ const TomadasData = [
     id: 1,
     name: "TP-LINK Smart Tapo P100",
     price: "10,99€",
-    imageUrl: "/tomada1.jpg",
+    imageUrl: "/Tomada1.jpg",
     url: "https://www.worten.pt/produtos/tomada-tp-link-smart-tapo-p100-7071630" // Imagem de exemplo
   },
   {
     id: 2,
     name: "PHILIPS Hue Smart Plug",
     price: "27,99€",
-    imageUrl: "/tomada2.jpg",
+    imageUrl: "/Tomada2.jpg",
     url:"https://www.worten.pt/produtos/ficha-inteligente-philips-hue-smart-plug-7071427" // Imagem de exemplo
   },
   {
     id: 3,
     name: "NEDIS Schuko WIFIP121FWT",
     price: "14,99€",
-    imageUrl: "/tomada3.jpg",
+    imageUrl: "/Tomada3.jpg",
     url:"https://www.worten.pt/produtos/tomada-inteligente-nedis-schuko-wifip121fwt-7630949" // Imagem de exemplo
   },
 ];
@@ -58,7 +58,6 @@ const Produtos_Tomadas = () => {
             {/* Imagem do produto: Agora usa TodamadaData.imageUrl e TodamadaData.name para o alt */}
             <img
               src={TodamadaData.imageUrl}
-              alt={TodamadaData.name}
               className="h-72 w-full object-cover rounded"
             />
           </CardContent>
