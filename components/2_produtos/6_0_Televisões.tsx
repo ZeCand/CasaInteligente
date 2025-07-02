@@ -94,7 +94,7 @@ const Produtos_Multimedia_Televisao = () => {
               </h3>
 
 
-              <a href={TelevisaoData.url}>
+              <a href={TelevisaoData.url} target="_blank">
                 <Button className="mt-6 shadow-none w-[120px]">
                 Comprar <ChevronRight />
               </Button>

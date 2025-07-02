@@ -17,7 +17,7 @@ const features = [
     image: "/Home.jpg",
     Marca: "Google",
     Data_Criação: "Novembro de 2016",
-    Principal_Vantagem: "integração profunda com os serviços Google" // Adiciona o caminho da imagem
+    Principal_Vantagem: "Integração profunda com os serviços Google" // Adiciona o caminho da imagem
   },
   {
     title: "Amazon Echo",

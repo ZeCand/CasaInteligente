@@ -20,31 +20,31 @@ const features = [
     icon: AirVent,
     title: "Climatização",
     description:
-      "Manter a casa sempre à temperatura ideal, otimizando o conforto e sem preocupar com o consumo.",
+      "Manter a casa sempre à temperatura ideal, otimizando o conforto e sem preocupações com o consumo.",
   },
   {
     icon: ShieldCheck,
     title: "Segurança",
     description:
-      "Proteja o seu lar com sistemas inteligentes que o alertam e agem por si.",
+      "proteção com sistemas inteligentes que alertam e agem por si.",
   },
   {
     icon: Blinds,
     title: "Estores e Persianas",
     description:
-      "Controle a privacidade e a entrada de luz natural com um simples toque",
+      "Controle da privacidade e de entrada de luz natural com um simples toque.",
   },
   {
     icon: Refrigerator,
     title: "Eletrodomésticos",
     description:
-      "Eletrodomésticos conectados facilitam as suas tarefas diárias e gerem-se a si próprios.",
+      "Eletrodomésticos conectados facilitam as tarefas diárias e gerem-se a si próprios.",
   },
   {
     icon: TvMinimalPlay,
     title: "Sistemas de Áudio e Vídeo",
     description:
-      "Desfrute de entretenimento integrado e personalizado em qualquer divisão.",
+      "Entretenimento integrado e personalizado em qualquer divisão.",
   },
 ];
 

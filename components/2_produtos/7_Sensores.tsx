@@ -64,7 +64,7 @@ const Produtos_Sensores = () => {
 
           <CardFooter className="gap-2 mt-auto"> {/* 'mt-auto' para alinhar os botões no fundo */}
             {/* Botão "Loja": Agora abre o URL específico do produto */}
-            <a href={TodamadaData.url} target="_blank" rel="noopener noreferrer">
+            <a href={TodamadaData.url} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
                 <Button className="h-8 w-20" variant="outline">Loja</Button>
             </a>
             {/* O botão "Próximo" foi removido pois não é necessário com múltiplos cartões */}

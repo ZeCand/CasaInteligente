@@ -27,12 +27,12 @@ const features = [
     icon: IconBatteryEco,
     title: "Baixo Consumo de Energia",
     description:
-      "    Otimizado para longos períodos de funcionamento com bateria, ideal para sensores e outros dispositivos de baixa largura de banda.",
+      "Otimizado para longos períodos de funcionamento com bateria, ideal para sensores e outros dispositivos de baixa largura de banda.",
   },
   {
     icon: IconTerminal,
     title: "Responsividade Superior",
-    description: "O Matter e o Thread são uma dupla que veio para simplificar a sua casa inteligente. Juntos, garantem que os dispositivos de diferentes marcas funcionem em conjunto, sem complicações."
+    description: "O Matter e o Thread são uma dupla que veio para simplificar casa inteligente. Juntos, garantem que os dispositivos de diferentes marcas funcionem em conjunto, sem complicações."
   },
   {
     icon: IconSeparatorVertical,
