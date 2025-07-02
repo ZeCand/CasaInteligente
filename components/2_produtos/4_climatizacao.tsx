@@ -29,13 +29,13 @@ const Produtos_Climatizacao = () => {
 
 
 
-  const Desvantagens = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      // Usa scrollIntoView com comportamento 'smooth' para uma animação suave
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+  const Desvantagens = (id: string) => { // <--- Adicione ": string" aqui
+  const element = document.getElementById(id);
+  if (element) {
+    // Usa scrollIntoView com comportamento 'smooth' para uma animação suave
+    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
+}
 
 
   return (

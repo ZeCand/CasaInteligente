@@ -4,13 +4,13 @@ import React from 'react';
 
 const HomeAssistantIframe: React.FC = () => {
 
-const scrollToSection2 = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      // Usa scrollIntoView com comportamento 'smooth' para uma animação suave
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+const Desvantagens = (id: string) => { // <--- Adicione ": string" aqui
+  const element = document.getElementById(id);
+  if (element) {
+    // Usa scrollIntoView com comportamento 'smooth' para uma animação suave
+    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
+}
 
 
 
@@ -19,7 +19,7 @@ const scrollToSection2 = (id) => {
 
 
 
-        <div id='HomeAssistant' className="min-h-screen flex items-center justify-center" onClick={() => scrollToSection2('AssistentesVoz')}>
+        <div id='HomeAssistant' className="min-h-screen flex items-center justify-center" onClick={() => Desvantagens('AssistentesVoz')}>
       <div className="w-full">
     <div className="flex justify-center items-center h-screen">
       <iframe
