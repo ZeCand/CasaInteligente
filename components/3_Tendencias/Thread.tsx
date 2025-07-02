@@ -56,7 +56,7 @@ const PaginaThread = () => {
     <div className="min-h-screen flex items-center justify-center py-12" id="Thread" onClick={() => Desvantagens('HomeIO')}>
       <div>
         <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-center">
-          Unleash Your Creativity
+          Thread
         </h2>
         <div className="mt-10 sm:mt-16 grid sm:grid-cols-2 lg:grid-cols-5 gap-6  mx-auto px-6">
           {features.map((feature) => (

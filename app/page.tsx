@@ -10,13 +10,15 @@ import Quadros_eletricos from "@/components/2_produtos/1_Quadros_Eletricos";
 import Produtos_Tomadas from "@/components/2_produtos/3_Tomadas";
 import Produtos_Seguranca from "@/components/2_produtos/5_seguranca";
 import Produtos_Multimedia_Televisao from "@/components/2_produtos/6_0_Televisões";
-import Produtos_Multimedia_Colunas from "@/components/2_produtos/6_1_Coluna";
-import Produtos_Multimedia_Projetores from "@/components/2_produtos/6_2_Projetos";
+
+
 import Produtos_Climatizacao from "@/components/2_produtos/4_climatizacao";
 import ConexoesPagina from "@/components/3_Tendencias/Conexoes";
 import HomeIoPage from "@/components/3_Tendencias/HomeIO";
 import PaginaThread from "@/components/3_Tendencias/Thread";
 import AssistentesVoz2 from "@/components/1_Paginas/AssistentesDeVoz2";
+import Produtos_Sensores from "@/components/2_produtos/7_Sensores";
+import Produtos_Tablets from "@/components/2_produtos/8_Tablets";
 
 
 
@@ -86,11 +88,11 @@ O termo "domótica" deriva do latim "domus" (casa) e "robótica" (automação). 
 
 
   
-    <Produtos_Multimedia_Colunas />
+    <Produtos_Sensores />
 
 
 
-    <Produtos_Multimedia_Projetores />
+    <Produtos_Tablets />
 
 
     <ConexoesPagina />

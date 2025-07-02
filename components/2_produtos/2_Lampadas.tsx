@@ -4,24 +4,24 @@ import { Button } from "../ui/button";
 const LampadasData = [
   {
     id: 1,
-    name: "Philips Hue - Lâmpada LED",
-    price: "56,95€",
-    imageUrl: "/Iluminação1.jpg",
-    url:"https://amzn.eu/d/1VQA13b"
+    name: "XIAOMI Mi LED",
+    price: "25,99€",
+    imageUrl: "/1_lampada.webp",
+    url: "https://www.worten.pt/produtos/lampada-inteligente-xiaomi-mi-led-smart-wi-fi-rgb-7269789"
   },
   {
     id: 2,
-    name: "Govee Neon Rope Light 2",
-    price: "101,65€",
-    imageUrl: "/Iluminação2.jpg",
-    url: "https://amzn.eu/d/0QbfyGh"
+    name: "Shelly 1 Mini Gen4",
+    price: "17,99 €",
+    imageUrl: "/2_lampada.webp",
+    url: "https://mauser.pt/catalog/product_info.php?products_id=095-5812&utm_source=shellypt&utm_medium=referral&utm_campaign=shellypt&utm_term=shelly_1_mini_gen4"
   },
   {
     id: 3,
-    name: "PHILIPS Hue 2",
-    price: "128.35€",
-    imageUrl: "/Iluminação3.jpg",
-    url:"https://amzn.eu/d/dyWez4n"
+    name: "Shelly BLU Motion ",
+    price: "19,90€",
+    imageUrl: "/3_lampada.jpg",
+    url:"https://www.pcdiga.com/casa-e-ar-livre/smart-home-e-iluminacao/sensores-e-detetores/modulo-automacao-shelly-blu-motion-sensor-de-movimento-095-2323-3800235266700?gad_source=1&gad_campaignid=22584598316&gbraid=0AAAAADN6klNzRF1AJpmaHMUwITYkpV6mp&gclid=CjwKCAjwsZPDBhBWEiwADuO6y6sDH-UxzhwZriQApP71h-dI1GC4WligWCD-L_gekNfB-ewSLxeM3BoC_YkQAvD_BwE"
   },
 ];
 

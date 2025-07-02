@@ -26,18 +26,18 @@ const Televisao = [
   },
   {
     id: 2,
-    name: "Crystal UHD 50DU7105",
-    price: "334,44€",
-    imageUrl: "/2_Televisao.jpg",
-    url: "https://amzn.eu/d/gLx671r",
-    marca:"Samsung"
+    name: "SONY 5.1 HT-S40R",
+    price: "299.27€",
+    imageUrl: "/2_soundbar.jpg",
+    url: "https://www.worten.pt/produtos/soundbar-sony-5-1-ht-s40r-5-1-600-w-7407096",
+    marca:"Sony"
   },
   {
     id: 3,
-    name: "Smart TV 50UT73006LA",
-    price: "364,93€",
-    imageUrl: "/3_Televisao.jpg",
-    url:"https://amzn.eu/d/euf8cJ4",
+    name: "LG CineBeam Laser HU85LS",
+    price: "5.199,00€",
+    imageUrl: "/3_projetor.jpg",
+    url:"https://www.worten.pt/produtos/projetor-lg-cinebeam-laser-hu85ls-2700-lumens-4k-7141028",
     marca:"LG"
   },
 ];
@@ -64,10 +64,10 @@ const Produtos_Multimedia_Televisao = () => {
   return (
 
 
-    <div className="min-h-screen flex items-center justify-center py-12" id="Televisao" onClick={() => Desvantagens('Colunas')}>
+    <div className="min-h-screen flex items-center justify-center py-12" id="Televisao" onClick={() => Desvantagens('Sensores')}>
       <div className="w-full">
         <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-center">
-          Multimédia - Televisão
+          Multimédia
         </h2>
         <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12 max-w-md sm:max-w-screen-md lg:max-w-screen-lg w-full mx-auto px-6">
 

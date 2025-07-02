@@ -4,25 +4,25 @@ import { Button } from "../ui/button";
 const quadrosData = [
   {
     id: 1,
-    name: "eMylo Smart",
-    price: "34,55€",
-    imageUrl: "/Quadro1.jpg",
-    url: "https://www.amazon.es/dp/B0BK8FF4FB/ref=asc_df_B0BK8FF4FB?language=pt_PT&mcid=cf9b5a528c163a4183a97c4908b2717a&tag=ptgogshpadde-21&linkCode=df0&hvadid=718167262518&hvpos=&hvnetw=g&hvrand=8337373438288041042&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1011771&hvtargid=pla-2019721361406&psc=1&language=pt_PT&gad_source=1" // Imagem de exemplo
+    name: "Shelly Pro 4PM",
+    price: "120€",
+    imageUrl: "/1_quadro.jpg",
+    url: "https://www.pcdiga.com/casa-e-ar-livre/smart-home-e-iluminacao/modulos-e-comutadores-domotica/modulo-automacao-shelly-pro-4pm-nivel-pro-controla-4-canais-num-unico-dispositivo-pro-4pm-3800235268049" // Imagem de exemplo
   },
   {
     id: 2,
-    name: "16A DIY interruptor",
-    price: "20,32€",
-    imageUrl: "/Quadro2.jpg",
-    url: "https://www.amazon.es/dp/B0B7MYYT2V/ref=asc_df_B0B7MYYT2V?language=pt_PT&mcid=32cc3acbfe41382f8419d370a0b83b01&tag=ptgogshpadde-21&linkCode=df0&hvadid=718167262518&hvpos=&hvnetw=g&hvrand=8337373438288041042&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1011771&hvtargid=pla-1953215427078&gad_source=1&th=1" // Imagem de exemplo
+    name: "Phasak Sirius PH 7315",
+    price: "147,99 €",
+    imageUrl: "/2_quadro.webp",
+    url: "https://mauser.pt/catalog/product_info.php?products_id=076-0736&utm_source=google&utm_medium=cpc&utm_campaign=shopping_catalog_pt_011&utm_content=feed&gad_source=1&gad_campaignid=18776098047&gbraid=0AAAAAD_BV8lEo4NQWZul2Gnt-u7iJEdoN&gclid=CjwKCAjwsZPDBhBWEiwADuO6yw0SLRt5UJBQJmUpLQdkKS82Wp0_T7RKqx0EIDj_Ud4_aNO7Gf_OIBoCt5QQAvD_BwE" // Imagem de exemplo
  // Imagem de exemplo
   },
   {
     id: 3,
-    name: "TONGOU Medidor de consumo",
-    price: "27,85€",
-    imageUrl: "/Quadro3.jpg", // Imagem de exemplo
-    url:"https://amzn.eu/d/bz9WPjB"
+    name: "Shelly Pro 3EM-3CT63",
+    price: "121,77€",
+    imageUrl: "/3_quadro.webp", // Imagem de exemplo
+    url:"https://smartify.pt/products/shelly-pro-3em-3ct63-medidor-de-energia-monofasico-wifi-bluetooth"
   },
 ];
 
@@ -49,7 +49,7 @@ const Quadros_eletricos = () => {
           {quadrosData.map((quadroData) => (
     <Card key={quadroData.id}>
       <CardHeader>
-        <h2 className="text-2xl font-bold">Quadros Elétricos</h2>
+        
         {/* Nome do produto */}
         <h4 className="text-lg font-semibold">{quadroData.name}</h4> 
         {/* Preço do produto */}
