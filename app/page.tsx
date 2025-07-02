@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { ArrowDown, ArrowUpDown, ArrowUpRight, CirclePlay } from "lucide-react";
 import { BackgroundPattern } from "@/app/hero/background";
 import Vantagens from "@/components/1_Paginas/Vantagens";
-import Features02Page from "@/components/1_Paginas/AssistentesVoz";
 import DesvantagensSection from "@/components/1_Paginas/Desvantagens";
 import HomeAssistantIframe from "@/components/1_Paginas/home";
 import Produtos_Lampadas from "@/components/2_produtos/2_Lampadas";
@@ -14,11 +13,9 @@ import Produtos_Multimedia_Televisao from "@/components/2_produtos/6_0_Televisõ
 import Produtos_Multimedia_Colunas from "@/components/2_produtos/6_1_Coluna";
 import Produtos_Multimedia_Projetores from "@/components/2_produtos/6_2_Projetos";
 import Produtos_Climatizacao from "@/components/2_produtos/4_climatizacao";
-import AssistentesVoz from "@/components/1_Paginas/AssistentesVoz";
 import ConexoesPagina from "@/components/3_Tendencias/Conexoes";
 import HomeIoPage from "@/components/3_Tendencias/HomeIO";
 import PaginaThread from "@/components/3_Tendencias/Thread";
-import HeroVideoDialog from "@/components/magicui/hero-video-dialog";
 import AssistentesVoz2 from "@/components/1_Paginas/AssistentesDeVoz2";
 
 
