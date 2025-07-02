@@ -14,7 +14,7 @@ const features = [
   {
     title: "Google Home",
     description: "Craft content that resonates and inspires trust.",
-    image: "/Home.webp",
+    image: "/Home.jpg",
     Marca: "Google",
     Data_Criação: "Novembro de 2016",
     Principal_Vantagem: "ntegração profunda com os serviços Google" // Adiciona o caminho da imagem

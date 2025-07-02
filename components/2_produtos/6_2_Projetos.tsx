@@ -20,7 +20,7 @@ const Projetores = [
     id: 1,
     name: "Freestyle 2nd Gen",
     price: "739,99€",
-    imageUrl: "/1_projetor.webp",
+    imageUrl: "/1_projetor.jpg",
     url:"https://www.worten.pt/produtos/projetor-samsung-sp-lff3claxxxe-freestyle-2nd-gen-2023-lsp-3-led-smart-tv-branco-7850124",
     marca:"Samsung"
   },
@@ -28,7 +28,7 @@ const Projetores = [
     id: 2,
     name: "Projetor L1 Pro",
     price: "283,96€",
-    imageUrl: "/2_projetor.webp",
+    imageUrl: "/2_projetor.jpg",
     url: "https://www.worten.pt/produtos/videoprojecteur-xiaomi-projetor-inteligente-xiaomi-l1-pro-1920x1080-400ansi-lumens-2-x-5w-dolby-audio-google-tv-netflix-mrkean-6941812702048",
     marca:"Xiaomi"
   },
@@ -36,7 +36,7 @@ const Projetores = [
     id: 3,
     name: "LG CineBeam Laser HU85LS",
     price: "5.199,00€",
-    imageUrl: "/3_projetor.webp",
+    imageUrl: "/3_projetor.jpg",
     url:"https://www.worten.pt/produtos/projetor-lg-cinebeam-laser-hu85ls-2700-lumens-4k-7141028",
     marca:"LG"
   },

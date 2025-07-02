@@ -6,7 +6,7 @@ const Climatizacao = [
     id: 1,
     name: "Netatmo cabeças térmicas",
     price: "210,42€",
-    imageUrl: "/1_termo.webp",
+    imageUrl: "/1_termo.jpg",
     url: "https://amzn.eu/d/eDbXWx7" // Imagem de exemplo
   },
   {

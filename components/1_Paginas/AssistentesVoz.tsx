@@ -11,7 +11,7 @@ const features = [
   {
     title: "Google Assistant",
     description: "Craft content that resonates and inspires trust.",
-    image: "/Home.webp", // Adiciona o caminho da imagem
+    image: "/Home.jpg", // Adiciona o caminho da imagem
   },
   {
     title: "Alexa",

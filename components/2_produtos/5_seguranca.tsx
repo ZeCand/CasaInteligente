@@ -6,7 +6,7 @@ const SegurancaData = [
     id: 1,
     name: "Amazon RNIG Video Doorbell",
     price: "209,89€",
-    imageUrl: "/Ring1.webp",
+    imageUrl: "/Ring1.jpg",
     url: "https://www.worten.pt/produtos/campainha-inteligente-amazon-rnig-video-doorbell-2a-geracao-com-bateria-niquel-mrkean-0840080525501" // Imagem de exemplo
   },
   {

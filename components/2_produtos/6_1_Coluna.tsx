@@ -20,7 +20,7 @@ const Colunas = [
     id: 1,
     name: "Wireless SB 550",
     price: "209,99€",
-    imageUrl: "/1_Soundbar.webp",
+    imageUrl: "/1_Soundbar.jpg",
     url:"https://www.worten.pt/produtos/soundbar-wireless-jbl-sb-550-3-1-150-w-subwoofer-sem-fios-8057937",
     marca:"JBL"
   },
@@ -28,7 +28,7 @@ const Colunas = [
     id: 2,
     name: "SONY 5.1 HT-S40R",
     price: "299.27€",
-    imageUrl: "/2_Soundbar.webp",
+    imageUrl: "/2_Soundbar.jpg",
     url: "https://www.worten.pt/produtos/soundbar-sony-5-1-ht-s40r-5-1-600-w-7407096",
     marca:"Sony"
   },
@@ -36,7 +36,7 @@ const Colunas = [
     id: 3,
     name: "Soundbar SAMSUNG Q-SERIES",
     price: "893.97€",
-    imageUrl: "/3_Soundbar.webp",
+    imageUrl: "/3_Soundbar.jpg",
     url:"https://www.worten.pt/produtos/soundbar-samsung-q-series-hw-q990d-zf-11-1-4-canais-160-w-8025037",
     marca:"Samsung"
   },
